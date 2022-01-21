@@ -9,4 +9,4 @@ const routes_1 = __importDefault(require("./routes"));
 const app = (0, express_1.default)();
 app.use((0, cors_1.default)());
 app.use(routes_1.default);
-app.listen(3333);
+app.listen(3333, () => console.log('Servidor está funcionando normalmente na porta 3333'));
